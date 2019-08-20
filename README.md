@@ -8,4 +8,4 @@ All the .py files from this repo (except *test.py*) were generated from the .pro
 
 `python -m grpc_tools.protoc -I<dir_of_proto_files> --python_out=<output_dir> --grpc_python_out=<output_dir> <proto_files>.proto`
 
-In *test.py* I tested some queries on the Libra testnet, using an Libra prior created account. More details about connecting to Libra Testnet can be found [here](https://medium.com/coinmonks/connecting-to-libra-testnet-on-windows-with-wsl-45bdfd23150a).
+In *test.py* I tested some queries on the Libra Testnet, using an Libra prior created account. More details about connecting to Libra Testnet can be found [here](https://medium.com/coinmonks/connecting-to-libra-testnet-on-windows-with-wsl-45bdfd23150a).
