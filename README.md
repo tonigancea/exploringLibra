@@ -6,6 +6,6 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Libra_(cryptocurrency)), 
 ## About this repository ##
 All (except test.py) the .py files from this repo were generated from the .proto files using [grpc](https://grpc.io/).
 
-`python -m grpc_tools.protoc -I../../protos --python_out=. --grpc_python_out=. ../../protos/helloworld.proto`
+`python -m grpc_tools.protoc -I<dir_of_proto_files> --python_out=<output_dir> --grpc_python_out=<output_dir> <proto_files>.proto`
 
-In test.py I tested some queries on the Libra testnet.
+In test.py I tested some queries on the Libra testnet, using an Libra prior created account. More details about connecting to Libra Testnet can be found [here](https://medium.com/coinmonks/connecting-to-libra-testnet-on-windows-with-wsl-45bdfd23150a).
